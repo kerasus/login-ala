@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Login from "../components/Login";
+import profile from "../components/profile";
 
 
 Vue.use(VueRouter)
@@ -7,16 +9,11 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: '',
-    component: ''
+    component:Login
   },
   {
-    path: '',
-    name: '',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: ''
+    path: '/profile',
+    component: profile
   }
 ]
 
