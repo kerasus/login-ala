@@ -1,7 +1,6 @@
 <template>
   <div>
     <router-view/>
-    <profile/>
   </div>
 
 </template>
